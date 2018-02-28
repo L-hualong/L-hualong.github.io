@@ -1,10 +1,10 @@
 # Site settings
-title: Your Blog
-SEOTitle: 你的博客 | Your Blog
+title: 刘华龙的小窝
+SEOTitle: 刘华龙
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: ""
-keyword: ""
+email: hualong8849@qq.com
+description: "关于iOS开发与设计、黑客与画家 | 刘华龙，Software Engineer & Mobile Lover，UX Designer | 这里是 @刘华龙 的个人博客，与你一起发现更大的世界。"
+keyword: "ios开发 , IOS , ios ,刘华龙的小窝, 刘华龙, 华龙, hualong8849, hualong, liuhualong, 刘华龙的博客 , 博客, 个人网站, 互联网"
 url: "http://L-hualong.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -12,11 +12,11 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
+# weibo_username:     huxpro
+# zhihu_username:     huxpro
+github_username:    L-hualong
 #twitter_username:  huxpro
-facebook_username:  huxpro
+# facebook_username:  huxpro
 
 
 
@@ -50,7 +50,7 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: huxblog
+# duoshuo_username: huxblog
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
