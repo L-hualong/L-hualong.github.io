@@ -1,9 +1,9 @@
-# HuxBlog Boilerplate
+# 刘华龙的小窝 | Marco Liu
 
-##### This is the boilerplate of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), all documents is over there!
+##### 我现在用的博客主题是从[黄玄的博客](http://huangxuan.me)复制过来的精简版。
 
-#### [View Boilerplate &rarr;](http://huangxuan.me/huxblog-boilerplate/)
+#### [View Marco Liu Blog &rarr;](http://hualong.ink)
 
 #### [View Live Hux Blog &rarr;](http://huangxuan.me)
 
-## If you like Hux Blog, Please star [huxpro.github.io repo](https://github.com/Huxpro/huxpro.github.io) instead of this! Thank you!
+## If you like Hux Blog, Please star [L-hualong.github.io repo](https://github.com/L-hualong/L-hualong.github.io) instead of this! Thank you!
