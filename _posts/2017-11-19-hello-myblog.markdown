@@ -7,6 +7,7 @@ author:     "Marco Liu"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - 生活
+    - IOS开发
 ---
 
 > “Yeah It's on. ”
@@ -153,6 +154,8 @@ Jekyll 的核心其实是一个文本转换引擎。它的概念其实就是： 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;默认使用阿里云提供的万网 DNS 服务器，在域名解析中，A 记录就是直接指定一个 IP，CNAME 就是重命名，指向另一个域名。
 ![](/img/in-post/jekyll/2017-11-19-jekyll-03.jpg)
 ```
+添加以下解析
+
 记录类型：CNAME
 主机记录：www
 解析线路：默认
@@ -190,7 +193,7 @@ Jekyll 的核心其实是一个文本转换引擎。它的概念其实就是： 
 >* 如果你想使用我的模板请把 _posts/ 目录下的文章都去掉。
 >*  修改 _config.yml 文件里面的内容为你自己的。
 
-详细的配置教程和博客撰写教程可以点击 [这里](https://github.com/L-hualong/L-hualong.github.io/blob/master/README.zh.md)
+详细的配置教程和博客撰写教程可以点击 [这里](https://github.com/L-hualong/L-hualong.github.io/blob/master/ConfigHelp.md)
 
 ## 后记
 

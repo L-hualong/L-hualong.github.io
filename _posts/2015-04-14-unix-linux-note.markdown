@@ -6,9 +6,9 @@ date:       2015-04-14
 author:     "Hux"
 header-img: "img/post-bg-unix-linux.jpg"
 tags:
-    - OS
-    - Unix
-    - Linux
+    - IOS开发
+    - 生活
+
 ---
 
 > This document is not completed and will be updated anytime.
@@ -114,7 +114,6 @@ The iOS kernal is **XNU**, the kernal of Darwin.
 
 #### XNU Kernel
 XNU, the acronym(首字母缩写) for ***X is Not Unix***, which is the **Computer OS Kernel** developed at Apple Inc since Dec 1996 for use in the Mac OS X and released as free open source software as part of Darwin.
-
 
 ---
 
