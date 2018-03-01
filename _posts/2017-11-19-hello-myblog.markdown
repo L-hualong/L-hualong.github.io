@@ -153,15 +153,10 @@ Jekyll 的核心其实是一个文本转换引擎。它的概念其实就是： 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;默认使用阿里云提供的万网 DNS 服务器，在域名解析中，A 记录就是直接指定一个 IP，CNAME 就是重命名，指向另一个域名。
 ![](/img/in-post/jekyll/2017-11-19-jekyll-03.jpg)
 ```
-记录类型：A
+记录类型：CNAME
 主机记录：www
 解析线路：默认
-记录值是：192.30.252.153
-
-记录类型：A
-主机记录：www
-解析线路：默认
-记录值是：192.30.252.154
+记录值是：username.github.io.
 
 记录类型：CNAME
 主机记录：@
