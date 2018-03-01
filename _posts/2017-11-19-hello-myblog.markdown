@@ -35,7 +35,7 @@ Marco Liu 的 Blog 就这么开通了。
 * 开始
 	* [介绍](#介绍)
 	* [环境要求](#环境要求)
-	* [Jekyll 环境配置](#Jekyll 环境配置)
+	* [环境配置](#环境配置)
 * 博客搭建
 	* [创建博客](#创建博客)
 	* [目录结构](#目录结构)
@@ -67,7 +67,7 @@ Jekyll 。
 如果你是 Mac 用户，你就需要安装 Xcode 和 Command-Line Tools了。下载方式 Preferences → Downloads → Components。或者在终端输入   **$  xcode-select --install**
 
 ---
-###### Jekyll 环境配置
+###### 环境配置
 
 安装 jekyll
 ```
@@ -142,7 +142,6 @@ Jekyll 的核心其实是一个文本转换引擎。它的概念其实就是： 
 
 **2.3.部署博客到刚创建仓库**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;创建好了之后，把刚才建立的 myBlog 项目 push 到 username.github.io仓库里去（username指的是你的github用户名），检查你远端仓库已经跟你本地 myBlog 同步了，然后你在浏览器里输入 http://username.github.io ，就可以访问你的博客了。
-
 
 ---
 ###### 绑定域名
