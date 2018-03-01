@@ -193,7 +193,7 @@ Jekyll 的核心其实是一个文本转换引擎。它的概念其实就是： 
 >* 如果你想使用我的模板请把 _posts/ 目录下的文章都去掉。
 >*  修改 _config.yml 文件里面的内容为你自己的。
 
-详细的配置教程和博客撰写教程可以点击 [这里](https://github.com/Huxpro/huxpro.github.io/blob/master/README.zh.md)
+详细的配置教程和博客撰写教程可以点击 [这里](https://github.com/L-hualong/L-hualong.github.io/blob/master/_posts/blogConfig.md)
 
 ## 后记
 
