@@ -6,4 +6,4 @@
 
 #### [View Live Hux Blog &rarr;](http://huangxuan.me)
 
-## If you like Hux Blog, Please star [L-hualong.github.io repo](https://github.com/L-hualong/L-hualong.github.io) instead of this! Thank you!
+## If you like Marco Liu Blog, Please star [L-hualong.github.io repo](https://github.com/L-hualong/L-hualong.github.io) instead of this! Thank you!
