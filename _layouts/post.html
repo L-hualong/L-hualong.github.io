@@ -232,3 +232,19 @@ layout: default
     }
 </style>
 {% endif %}
+
+<!-- gitment评论系统 -->
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'L-hualong',
+    repo: 'L-hualong.github.io',
+    oauth: {
+        client_id: 'dbdbc1a3c28d118fa1f5',
+        client_secret: '05a1a4fb2b259e0621932325dc556933ad2763ea',
+    },
+});
+gitment.render('gitmentContainer');
+</script>

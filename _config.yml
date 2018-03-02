@@ -52,9 +52,7 @@ kramdown:
 # Duoshuo settings
 # duoshuo_username: huxblog
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
-
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 # Analytics settings
@@ -75,17 +73,32 @@ sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
 
 
 
 # Friends
 friends: [
     {
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
+        title: "全栈养成计划",
+        href: "http://fullstack.blog"
     },{
         title: "詹瞻要去哪",
         href: "http://errnull.top/#blog"
+    },{
+        title: "bestswifter",
+        href: "https://bestswifter.com/#open"
+    },{
+        title: "ibireme",
+        href: "https://blog.ibireme.com"
+    },{
+        title: "JSPatch——bang",
+        href: "http://blog.cnbang.net"
+    },{
+        title: "sindrilin",
+        href: "http://sindrilin.com"
     }
 ]
+
+
+
