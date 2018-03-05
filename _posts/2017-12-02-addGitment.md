@@ -7,7 +7,7 @@ author:     "Marco Liu"
 header-img: "img/post-bg-2015.jpg"
 catalog:    true
 tags:
-    - 生活
+    - 博客
 ---
 
 > “Yeah I'm here'. ”
@@ -44,7 +44,6 @@ Github头像下拉菜单 > Settings > 左边Developer settings下的OAuth Applic
 	(ps: 之前我自己就是在这里碰壁了，调试半天才发现，我填的是http://hualong.ink)
 	
 	3.填写完上述信息后按Register application按钮，得到Client ID和Client Secret
-
 
 ---
 ##### 2. 在jekyll博客调用gitment
