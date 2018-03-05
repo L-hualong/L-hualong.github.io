@@ -6,6 +6,8 @@ date:       2017-11-19 12:00:00
 author:     "Marco Liu"
 header-img: "img/post-bg-2015.jpg"
 catalog:    true
+keywords: "个人博客搭建,Jekyll,GithubPage,域名关联"
+description: "个人博客搭建,Jekyll+GithubPage+域名关联"
 tags:
     - 博客
 ---
@@ -81,7 +83,7 @@ $ brew install ruby
 // 安装 jekyll
 $ gem install jekyll
 // 安装 bundle
-$ bundle install
+$ gem install bundle
 ```
 
 ---

@@ -6,6 +6,8 @@ date:       2017-12-02 12:00:00
 author:     "Marco Liu"
 header-img: "img/post-bg-2015.jpg"
 catalog:    true
+keywords: "为博客添加评论系统,gitment,Jekyll,评论系统,博客"
+description: "为博客添加评论系统"
 tags:
     - 博客
 ---

@@ -10,7 +10,7 @@ Hey，欢迎来到我的小窝~
 
 我的简历，👉 戳 [Resume](/resume) 
 
-一些作品和APP项目，👉 戳 [Portfolio](/portfolio) 
+我的一些作品和APP项目，👉 戳 [Portfolio](/portfolio) 
 
 
 
