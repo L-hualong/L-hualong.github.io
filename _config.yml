@@ -67,7 +67,7 @@ ba_track_id: 42a06f0f0d755db860dd4e480a3dbada
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "写写代码，看看电影，耍耍游戏。世界那么大，多出去看看。"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/hualong02.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
