@@ -9,7 +9,7 @@ catalog:    true
 keywords: "Xcodebuild,iOS开发,Xcode，Xcode命令行工具，命令行工具"
 description: "深入理解Xcode命令行工具"
 tags:
-    - CI系统
+    - DevOps
 ---
 
 > “Better late than never. ”

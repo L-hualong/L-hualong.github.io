@@ -82,6 +82,8 @@ $ brew install git
 $ brew install ruby  
 // 安装 jekyll
 $ gem install jekyll
+// 安装 jekyll-paginate
+$ gem install jekyll-paginate
 // 安装 bundle
 $ gem install bundle
 ```

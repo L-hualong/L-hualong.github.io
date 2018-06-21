@@ -83,9 +83,6 @@ friends: [
         title: "全栈养成计划",
         href: "http://fullstack.blog"
     },{
-        title: "詹瞻要去哪",
-        href: "http://errnull.top/#blog"
-    },{
         title: "bestswifter",
         href: "https://bestswifter.com/#open"
     },{
@@ -97,6 +94,9 @@ friends: [
     },{
         title: "sindrilin",
         href: "http://sindrilin.com"
+    },{
+        title: "詹瞻要去哪",
+        href: "http://errnull.top/#blog"
     }
 ]
 
