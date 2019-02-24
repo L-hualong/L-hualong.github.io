@@ -15,14 +15,14 @@
             <header>
                 <section class="title">
                     <h1>刘华龙</h1>
-                    <p>iOS 开发工程师</p>
+                    <p class="title">iOS 开发工程师</p>
                 </section>
                 <address>
                     <ul class="contact">
                         <li><span>电话：</span>177-0192-8849</li>
-                        <li><span>博客：</span><a href="http://www.hualong.ink">http://hualong.ink</a></li>
                         <li><span>邮箱：</span><a href="mailto:hualong8849@gmail.com">hualong8849@gmail.com</a></li>
-                        <!-- <li><span>Github：</span><a href="https://github.com/errnull/">https://github.com/errnull</a></li> -->
+                        <li><span>个人主页：</span><a href="http://www.hualong.me">http://hualong.me</a></li>
+                        <li><span>GitHub：</span><a href="https://github.com/L-hualong">https://github.com/L-hualong</a></li>
                         <li><span></span></li>
                     </ul>
                 </address>
@@ -36,170 +36,137 @@
                                 <div class="edu-placeholder"></div>
                             </li>
                             <li><span class="edu-year">2014 - 2018</span><span class="edu-circle circle"></span><span class="edu-title">本科</span></li>
-                            <li class="edu-content">广东工业大学
-                                <br>电子商务专业
-                                <br>学习方向：
-                                <br><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IOS开发</strong>
+                            <li class="edu-content"><strong>广东工业大学 </strong>
+                                <br >电子商务专业
+                                <br >英语：CET4
                                 <!-- <br><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adobe 插件及脚本开发</strong></li> -->
+                        </ul>
+                    </section>
+
+                    <section class="skill">
+                        <h2>技术成长</h2>
+                        <dl class="skill-item">
+                            <dt>iOS 开发</dt>
+                            <dd>大二开始自学 iOS 开发，有<strong>开发者账号</strong>，有已上架APP，名为<strong>“况况”</strong>，App Store可搜索</dd>
+                            <dd>开发需求谨慎细心，体现在提测后缺陷数较少，CodeReview被发现问题处较少，获得公司18年度<strong>优秀新人</strong>奖</dd>
+                            <dd>公司推行Swift开发，故使用Swift较多，喜欢研究Swift新特性，对OC底层也略有研究</dd>
+                            <dd>对架构模式颇感兴趣，熟练使用<strong>VIPER</strong>架构，对Uber的RIBs框架也有所了解</dd>
+                            <dd>对性能优化、启动时间优化、代码优化、数据安全有一定的了解，通过Instruments定位内存泄漏和帧数偏低等问题</dd>
+                            <dd>研究过一段时间的iOS性能监控，基于第三方GodEye框架，自己开发并封装了一个CocoaPods库，已投入UI自动化测试中监控性能问题，源码已上传至GitHub:<a href="https://github.com/TuanDai-MPD/HLAppMonitor">https://github.com/TuanDai-MPD/HLAppMonitor</a></dd>
+                            <dd>利用runtime运行时和swift反射机制来运行时生成 UI 控件的标签，开发人员无需手动为每个 UI 控件加标签，兼容obj-c和swift，已投入项目的自动化UI测试中，源码已上传至GitHub:<a href="https://github.com/L-hualong/HLUIAutoTest">https://github.com/L-hualong/HLUIAutoTest</a></dd>
+                            <dd>掌握iOS逆向插件开发，IDA、Hopper静态反汇编分析，cyscript、tweak插件动态调试，MoneyDev等逆向工具的使用，具体相关作品和技能已总结至我的个人博客：<a href="http://www.hualong.me/2018/10/10/security/">http://www.hualong.me/2018/10/10/security/</a></dd>
+                        </dl> 
+                        <dl class="skill-item">
+                            <dt>Devops</dt>
+                            <dd>对Jenkins及其插件略有研究，使用<strong>Jenkins</strong>+XcodeBuild实现自动打包并上传至内部devops平台，并对其他相关持续集成技术有所研究，比如fastlane、itms-services协议(OTA)、流水线、shell脚本等等</dd>
+                            <dd>调研UI自动化测试，最后选择<strong>Appium+Python</strong>作为移动端测试框架，并且协助测试同事完成测试脚本的编写，在bug回归测试中更早地发现问题，在我的博客中有原理分析和实践记录：<a href="http://www.hualong.me/2018/06/20/UITest01/">http://www.hualong.me/2018/06/20/UITest01/</a></dd>
+                        </dl> 
+                        <dl class="skill-item">
+                            <dt>自我描述</dt>
+                            <dd>是个技术宅男，有良好的沟通能力和团队协作能力</dd>
+                            <dd>喜欢进行疑难问题攻关，乐于探讨分享前沿技术</dd>
+                            <dd>热爱工程师文化，接受加班</dd>
+                        </dl>                      
+                    </section>
+                </article>
+                <article>
+                    <section class="education">
+                        <h2>工作经历</h2>
+                        <ul>
+                            <li>
+                                <div class="edu-placeholder"></div>
+                            </li>
+                            <li><span class="edu-year">17.12-19.03</span><span class="edu-circle circle"></span><span class="edu-title">团贷网科技服务有限公司（派生集团）</span></li>
+                            <li class="edu-content">
+                                <strong>iOS 开发工程师 (技术中心管培生)</strong>
+                                <br>在<strong>devops</strong>小组负责并研究<strong>工程效率</strong>
+                                <br>团贷网主端APP的需求迭代以及重构工作
+                                <br>iOS安全小组研究逆向及<strong>安全攻防</strong>
+                                <br>设备信息采集SDK实现、APM-SDK的调研
+                            <li>
+                                <div class="edu-placeholder"></div>
+                            </li>
+                            <li><span class="edu-year">17.07-17.10</span><span class="edu-circle circle"></span><span class="edu-title">优互信息科技有限公司（物联网初创公司）</span></li>
+                            <li class="edu-content">
+                                <strong>iOS 开发工程师</strong>
+                                <br>独自 / 参与 iOS 物联网项目开发
+                                <br>修复线上已知Bug及性能问题
+                                <br>证书管理 / 项目上架
+                            <li>
+                                <div class="edu-placeholder"></div>
+                            </li>
+                            <li><span class="edu-year">16.10-17.05</span><span class="edu-circle circle"></span><span class="edu-title">况况.Studio（创业工作室）</span></li>
+                            <li class="edu-content">
+                                <strong>“什么都干”开发工程师</strong>
+                                <br>参与应用需求分析 UI 设计
+                                <br>两人协同开发 “况况” iOS APP
                         </ul>
                     </section>
                     <section class="project">
                         <h2>项目经验</h2>
                         <ul>
-                            <!-- <li>
+                            <li>
                                 <dl>
-                                    <dd>2017.4 - 2017.6<span>团队项目</span></dd>
-                                    <dt><span class="circle"></span>SVGAConverter — Adobe CEP 扩展</dt>
-                                    <dd><span class="key-point">Web</span>
-                                        <span class="key-point">ES6</span>
-                                        <span class="key-point">Node.js</span>
-                                        <span class="key-point">ExtendScript</span>
+                                    <dd>2017.12 - 2019.03<span>公司项目</span></dd>
+                                    <dt><span class="circle"></span>团贷网APP — 互联网金融P2P项目</dt>
+                                    <dd><span class="key-point">Swift</span>
+                                        <span class="key-point">VIPER</span>
+                                        <span class="key-point">面向协议</span>
+                                        <span class="key-point">Objective-C</span>
                                     <dd>
                                         <ul>
-                                            <li>调用 <strong>Node.js</strong> 和 <strong>ExtendScript API</strong> 拓展 Adobe 应用的本地 Web (html + css + js ) 项目</li>
-                                            <li> 帮助设计师在 <strong>After Effects</strong> / <strong>Animate</strong> 上一键完成 源文件 – SVGA 动画文件的转换</li>
-                                            <li>独立完成 UI 界面设计、布局样式实现和 Loading 动画效果以及转换计算除外的其他功能</li>
-                                            <li>项目 Github 开源 迭代 并且已投入生产环境</li>
+                                            <li>使用Swift纯代码对团贷网项目进行重构</li>
+                                            <li>使用<strong>Viper+Protocol+JLRoutes</strong>对项目模块解耦</li>
+                                            <li>用责任链模式将 AppDelegate 分模块解耦</li>
+                                            <li>单向认证防止中间人攻击，使用IP直连防止DNS劫持</li>
+                                            <li>参与项目代码规范的制定，并使用SwiftLint工具来检测</li>
+                                            <li>提供项目组件化、解耦思路，CocoaPods组件化开发</li>
+                                            <li>一键生成Viper模块，避免重复编写同样的代码</li>
+                                            <li>使用LLDB调试程序，减少项目编译调试次数和时间</li>
+                                    	    <li>在某些场景用imageContentsOfFile代替imageNamed，优化图片加载方式</li>
                                         </ul>
                                     </dd>
                                 </dl>
-                            </li> -->
-                            <!-- <li>
+                            </li>
+                            <li>
                                 <dl>
-                                    <dd>2016.5 - 2016.12<span>独立开发</span></dd>
-                                    <dt><span class="circle"></span>TuiJi — 热点图文资讯社交 APP</dt>
+                                    <dd>2016.10 - 2017.05<span>协同开发</span></dd>
+                                    <dt><span class="circle"></span>况况 — 基于定位的问答服务类 APP</dt>
                                     <dd><span class="key-point">MVVM</span>
-                                        <span class="key-point">NIM SDK</span>
-                                        <span class="key-point">Realm</span>
-                                        <span class="key-point">GPUImage</span>
+                                        <span class="key-point">极光推送</span>
+                                        <span class="key-point">baiduMap</span>
+                                        <span class="key-point">ShareSDK</span>
                                     <dd>
                                         <ul>
-                                            <li>使用 <strong>MVC</strong> && <strong>MVVM (RAC)</strong> 构建项目</li>
-                                            <li>使用 <strong>Realm</strong> + <strong>SDWebImage</strong> 及其沙盒模型管理全局资源缓存</li>
-                                            <li>使用网易云信 SDK 再封装 IM 系统</li>
-                                            <li>使用 <strong>GPUImage</strong> 生成各种效果</li>
-                                            <li><strong>Pending Release</strong> 类似 Instagram + 微信聊天</li>
+                                            <li>使用 <strong>Swift</strong> + <strong>MVVM</strong> 构建项目</li>
+                                            <li>使用Core Animation开发各种动画效果</li>
+                                            <li>使用BaiduMapKit、ShareSDK、极光推送、AlipaySDK等等第三方SDK</li>
+                                            <li>使用SnapKit、SDWebImage、SwiftyJSON等常用框架</li>
                                         </ul>
                                     </dd>
                                 </dl>
-                            </li> -->
-                            <!-- <li>
+                            </li>
+                            <li>
                                 <dl>
-                                    <dd>2016.2 - 2016.3<span>独立开发</span></dd>
-                                    <dt><span class="circle"></span>詹瞻微博 — 仿微博 APP</dt>
-                                    <dd><span class="key-point">Pods</span>
-                                        <span class="key-point">AFN</span>
-                                        <span class="key-point">SDWebImage</span>
-                                        <span class="key-point">weiboSDK</span>
+                                    <dd>2017.07 - 2017.10<span>独立开发</span></dd>
+                                    <dt><span class="circle"></span>亚俊氏智能家居 — 物联网硬件控制服务类 APP</dt>
+                                    <dd><span class="key-point">物联网</span>
+                                        <span class="key-point">机智云SDK</span>
+                                        <span class="key-point">Xib&Storyboard</span>
+                                        <span class="key-point">ShareSDK</span>
                                     <dd>
                                         <ul>
-                                            <li>使用 <strong>CocoaPodas</strong> 集成管理各种第三方库</li>
-                                            <li>再封装使用 <strong>AFN</strong> 通过新浪第三方API获取数据实现微博数据 展示 / 收发 / 评论 / 点赞 等功能</li>
-                                            <li>使用 <strong>SDWebImage</strong> 加载图片 项目结构清晰</li>
+                                            <li><strong>Pending Release</strong> 类似 小米公司的“米家”APP</li>
                                         </ul>
                                     </dd>
                                 </dl>
-                            </li> -->
-                            <li>
-                                <dl>
-                                    <dd>to be continued</dd>
-                                </dl>
                             </li>
                         </ul>
-                    </section>
-                </article>
-                <article>
-                    <section class="education">
-                        <h2>实习经历</h2>
-                        <!-- <ul>
-                            <li>
-                                <div class="edu-placeholder"></div>
-                            </li>
-                            <li><span class="edu-year">16.05-16.12</span><span class="edu-circle circle"></span><span class="edu-title">TuiJi.Studio</span></li>
-                            <li class="edu-content">
-                                <strong>iOS 开发工程师</strong>
-                                <br>独立开发 TuiJi iOS App
-                                <br>参与应用需求分析 UI 设计
-                                <br>联合创立工作室
-
-                            <li>
-                                <div class="edu-placeholder"></div>
-                            </li>
-                            <li><span class="edu-year">17.02-17.04</span><span class="edu-circle circle"></span><span class="edu-title">Hbox.Co,.Ltd</span></li>
-                            <li class="edu-content">
-                                <strong>iOS 开发实习生</strong>
-                                <br>独自 / 参与 iOS 外包项目开发
-                                <br>证书管理 / 项目上架
-                            <li>
-                                <div class="edu-placeholder"></div>
-                            </li>
-                            <li><span class="edu-year">17.04-17.08</span><span class="edu-circle circle"></span><span class="edu-title">YY.Inc -- UED中心</span></li>
-                            <li class="edu-content">
-                                <strong>“什么都干”开发实习生</strong>
-                                <br>协助维护SVGA动画框架(iOS Android)
-                                <br>完成 <strong>SVGAConverter</strong> 转换器开发
-                                <br>参与公司 RN 项目细节修改
-                        </ul> -->
-                        <ul>
-                            <li>
-                                <div class="edu-placeholder"></div>
-                            </li>
-                            <li><span class="edu-year">17.12-至今</span><span class="edu-circle circle"></span><span class="edu-title">东莞团贷网互联网科技服务有限公司</span></li>
-                            <li class="edu-content">
-                                <strong>iOS 开发工程师</strong>
-                                <br>
-                                <br>
-                                <br>to be continued
-                            <li>
-                                <div class="edu-placeholder"></div>
-                            </li>
-                            <!-- <li><span class="edu-year">17.02-17.04</span><span class="edu-circle circle"></span><span class="edu-title">Hbox.Co,.Ltd</span></li>
-                            <li class="edu-content">
-                                <strong>iOS 开发实习生</strong>
-                                <br>独自 / 参与 iOS 外包项目开发
-                                <br>证书管理 / 项目上架
-                            <li>
-                                <div class="edu-placeholder"></div>
-                            </li>
-                            <li><span class="edu-year">17.04-17.08</span><span class="edu-circle circle"></span><span class="edu-title">YY.Inc -- UED中心</span></li>
-                            <li class="edu-content">
-                                <strong>“什么都干”开发实习生</strong>
-                                <br>协助维护SVGA动画框架(iOS Android)
-                                <br>完成 <strong>SVGAConverter</strong> 转换器开发
-                                <br>参与公司 RN 项目细节修改 -->
-                        </ul>
-                    </section>
-                    <section class="skill">
-                        <h2>技能</h2>
-                        <!-- <dl class="skill-item">
-                            <dt>iOS 开发</dt>
-                            <dd>大一开始接触 iOS 开发，有独立开发已上架 APP，有个 人开发者账号，曾担任创业项目<strong>技术合伙人</strong>。</dd>
-                            <dd>熟练掌握 <strong>MVC MVVM</strong> 并对其他设计模式 比如 <strong>MVP VIPER</strong> 有所了解。</dd>
-                            <dd>熟悉面向对象编程思想，对代码优化、数据安全有一定的体会和认知，有架构的思想。</dd>
-                            <dd>熟悉对 <strong>AFN SDWebImage Masonry Realm</strong> 等第三方框架的再封装使用。</dd>
-                        </dl>
-                        <dl class="skill-item">
-                            <dt>前端开发</dt>
-                            <dd>熟悉 <strong>HTML、DIV + CSS、JS</strong> 原生代码。</dd>
-                            <dd>熟悉 <strong>Node.js</strong> 能够用其进行文件处理、数据处理、网络请求等基本操作。</dd>
-                            <dd>熟悉 <strong>React Native</strong> 开发，了解其生命周期、与原生交互<br>参与公司 RN 项目细节修改，能阅读 <strong>Kotlin</strong> 代码。</dd>
-                        </dl>
-                        <dl class="skill-item">
-                            <dt>其他技能</dt>
-                            <dd>能够使用 <strong>Photoshop / After Effects / Animate</strong> 完成 简单的图像处理和动画制作。</dd>
-                            <dd>能够编写 <strong>ExtendScript Adobe</strong> 脚本实现设计师需求。</dd>
-                            <dd>自习能力强，能够翻墙阅读各种英文文档，混迹于 <strong>stackoverflow、Github</strong> 等网站。</dd>
-                            <dd>对 <strong>C++</strong> 算法 <strong>Cocos2d-x</strong> <strong>OpenGL</strong> 有所涉猎。</dd>
-                        </dl> -->
-                        <dl class="skill-item">
-                            <dt>iOS 开发</dt>
-                            <dd>to be continued</dd>
-                        </dl>                      
                     </section>
                 </article>
             </article>
         </main>
-        <footer>Copyright © <a href="http://www.hualong.ink">刘华龙</a> 2018 Resume by <a href="https://github.com/IridescentMia">IridescentMia</a></footer>
+        <footer>Copyright © <a href="http://www.hualong.me">刘华龙</a> 2019 Resume by <a href="http://www.hualong.me">Marco Liu</a></footer>
     </div>
 </body>
 
